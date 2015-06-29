@@ -1,10 +1,10 @@
 {
   "name": "knayi-myscript",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "Knayi Myanmar languages script library for Nodejs",
-  "main": "index.js",
+  "main": "npm/index.js",
   "scripts": {
-    "test": "Package to npm"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
