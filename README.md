@@ -1,5 +1,9 @@
 knayi-myscript
 ==============
+[![NPM Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Join the chat at https://gitter.im/greenlikeorange/knayi-myscript](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/greenlikeorange/knayi-myscript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **Knayi** is Standalone Myanmar Languages JavaScript Library, which can use for building Myanmar **Unicode** standard web in user friendly.
 Script include Font Detector, Font Converter, Syllable Break Points, Keyboards.
 
@@ -22,7 +26,7 @@ var knayi = require("knayi-myscript");
 
 knayi([String]).fontConvert([to], function(edited_content, old_content){
 	console.log(edited_content);
-	
+
 	// this.syllbreak can use for add break point to edited content
 	var edited = this.syllbreak();
 	console.log(edited);
@@ -72,7 +76,7 @@ var str = "{myanmar words}"
 var result = kanyi.fontDetect( str );
 
 /* Example returned result
- *  [ 
+ *  [
  *      { type: 'unicode5', matchTime: 10 },
  *      { type: 'zawgyi', matchTime: 2 }
  *  ]
@@ -138,3 +142,8 @@ Knayi Keyboard can work on input element or contenteditable element.
 ``` knayi.keyboard( [element{single element}, 'zawUnicode5'] ); ```
 
 zawUnicode5 Keyboard is ```ေ``` first keyboard with same layout with **AphpaZawgyiUnicodeL** keyboard
+
+[npm-image]: https://img.shields.io/npm/v/knayi-myscript.svg
+[npm-url]: https://npmjs.org/package/knayi-myscript
+[travis-url]: https://travis-ci.org/greenlikeorange/knayi-myscript
+[travis-image]: https://travis-ci.org/greenlikeorange/knayi-myscript.svg
