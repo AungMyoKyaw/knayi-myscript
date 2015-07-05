@@ -1,0 +1,121 @@
+// According to Unicode Version 8.0
+// Reference: http://unicode.org/charts/PDF/U1000.pdf
+
+{
+  BURMAR: {
+
+    // Consonants
+    "LETTER_KA": "\u1000", // က
+    "LETTER_KHA": "\u1001", // ခ
+    "LETTER_GA": "\u1002", // ဂ
+    "LETTER_GHA": "\u1003", // ဃ
+    "LETTER_NGA": "\u1004", // င
+    "LETTER_CA": "\u1005", // စ
+    "LETTER_CHA": "\u1006", // ဆ
+    "LETTER_JA": "\u1007", // ဇ
+    "LETTER_JHA": "\u1008", // ဈ
+    "LETTER_NYA": "\u1009", // ဉ
+    "LETTER_NNYA": "\u100A", // ည
+    "LETTER_TTA": "\u100B", // ဋ
+    "LETTER_TTHA": "\u100C", // ဌ
+    "LETTER_DDA": "\u100D", // ဍ
+    "LETTER_DDHA": "\u100E", // ဎ
+    "LETTER_NNA": "\u100F", // ဏ
+    "LETTER_TA": "\u1010", // တ
+    "LETTER_THA": "\u1011", // ထ
+    "LETTER_DA": "\u1012", // ဒ
+    "LETTER_DHA": "\u1013", // ဓ
+    "LETTER_NA": "\u1014", // န
+    "LETTER_PA": "\u1015", // ပ
+    "LETTER_PHA": "\u1016", // ဖ
+    "LETTER_BA": "\u1017", // ဗ
+    "LETTER_BHA": "\u1018", // ဘ
+    "LETTER_MA": "\u1019", // မ
+    "LETTER_YA": "\u101A", // ယ
+    "LETTER_RA": "\u101B", // ရ
+    "LETTER_LA": "\u101C", // လ
+    "LETTER_WA": "\u101D", // ဝ
+    "LETTER_SA": "\u101E", // သ
+    "LETTER_HA": "\u101F", // ဟ
+    "LETTER_LLA": "\u1020", // ဠ
+    "LETTER_GREAT_SA": "\u103F", // ဿ
+
+    // Independent vowels
+    "LETTER_A": "\u1021", // အ
+    "LETTER_I": "\u1023", // ဣ
+    "LETTER_II": "\u1024", // ဤ
+    "LETTER_U": "\u1025", // ဥ
+    "LETTER_UU": "\u1026", // ဦ
+    "LETTER_E": "\u1027", // ဧ
+    "LETTER_O": "\u1029", // ဩ
+    "LETTER_AU": "\u102A", // ဪ
+
+    // Dependent vowel signs
+    "VOWEL_SIGN_TALL_AA": "\u102B", // ါ
+    "VOWEL_SIGN_AA": "\u102C", // ာ
+    "VOWEL_SIGN_I": "\u102D", // ိ
+    "VOWEL_SIGN_II": "\u102E", // ီ
+    "VOWEL_SIGN_U": "\u102F", // ု
+    "VOWEL_SIGN_UU": "\u1030", // ူ
+    "VOWEL_SIGN_E": "\u1031", // ေ
+    "VOWEL_SIGN_AI": "\u1032", // ဲ
+    "VOWEL_SIGN_E_ABOVE": "\u1035", // ဵ
+
+    // Various signs
+    "SIGN_ANUSVARA": "\u1036", // ံ
+    "SIGN_DOT_BELOW": "\u1037", // ့
+    "SIGN_VISARGA": "\u1038", // း
+    "SIGN_VIRAMA": "\u1039", // 
+    "SIGN_ASAT": "\u103A", // ်
+
+    // Dependent consonant signs
+    "CONSONANT_SIGN_MEDIAL_YA": "\u103B", // ျ
+    "CONSONANT_SIGN_MEDIAL_RA": "\u103C", // ြ
+    "CONSONANT_SIGN_MEDIAL_WA": "\u103D", // ွ
+    "CONSONANT_SIGN_MEDIAL_HA": "\u103E", // ှ
+
+    // Digits
+    0: "\u1040", // ၀
+    1: "\u1041", // ၁
+    2: "\u1042", // ၂
+    3: "\u1043", // ,၃
+    4: "\u1044", // ၄
+    5: "\u1045", // ၅
+    6: "\u1046", // ၆
+    7: "\u1047", // ,၇
+    8: "\u1048", // ၈
+    9: "\u1049", // ၉
+
+    // Punctuation
+    "SIGN_LITTLE_SECTION": "\u104A", // ၊
+    "SIGN_SECTION": "\u104B", // ။
+
+    // Various signs
+    "SYMBOL_LOCATIVE": "\u104C", // ၌
+    "SYMBOL_COMPLETED": "\u104D", // ၍
+    "SYMBOL_AFOREMENTIONED": "\u104E", // ၎
+    "SYMBOL_GENITIVE": "\u104F", // ၏
+
+    // Pali and Sanskrit extensions
+    "LETTER_SHA": "\u1050", // ၐ
+    "LETTER_SSA": "\u1051", // ၑ
+    "LETTER_VOCALIC_R": "\u1052", // ၒ
+    "LETTER_VOCALIC_RR": "\u1053", // ၓ
+    "LETTER_VOCALIC_L": "\u1054", // ၔ
+    "LETTER_VOCALIC_LL": "\u1055", // ၕ
+    "VOWEL_SIGN_VOCALIC_R": "\u1056", // ၖ
+    "VOWEL_SIGN_VOCALIC_RR": "\u1057", // ၗ
+    "VOWEL_SIGN_VOCALIC_L": "\u1058", // ၘ
+    "VOWEL_SIGN_VOCALIC" LL: "\u1059", // ၙ
+
+  },
+  SHAN: {
+    "LETTER_SHAN_A": "\u1022", // ဢ
+  },
+  MON: {
+    "LETTER_MON_E": "\u1028", // ဨ
+
+    "VOWEL_SIGN_MON_II": "\u1033", // ဳ
+    "VOWEL_SIGN_MON_O": "\u1034", // ဴ
+  }
+}
