@@ -1,0 +1,29 @@
+{
+  "name": "knayi-myscript",
+  "version": "1.0.11",
+  "description": "Knayi Myanmar languages script library for Nodejs",
+  "main": "npm/index.js",
+  "scripts": {
+    "test": "Package to npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/greenlikeorange/knayi-myscript"
+  },
+  "keywords": [
+    "Myanmar",
+    "Burmese",
+    "Language",
+    "Localzation",
+    "JavaScript"
+  ],
+  "author": "Thuya Myo Nyunt <greenlikeorange>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greenlikeorange/knayi-myscript/issues"
+  },
+  "homepage": "https://github.com/greenlikeorange/knayi-myscript",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
