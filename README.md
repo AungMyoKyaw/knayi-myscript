@@ -7,7 +7,7 @@ knayi-myscript
 Standalone Myanmar Languages tools library for web. 
 This will help for creating **Myanmar Unicode** standard web applications.
 
-support email: beginofalove@hotmail.com
+Support email: ty@kny.co
 
 Nodejs
 ======
