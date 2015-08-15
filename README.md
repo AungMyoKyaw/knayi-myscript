@@ -9,12 +9,16 @@ This will help for creating **Myanmar Unicode** standard web applications.
 
 Support email: ty@kny.co
 
-Nodejs
-======
+## NODEJS
+
+Installation 
 
 ```bash
 npm install knayi-myscript
 ```
+
+### Font Detection
+
 
 [npm-image]: https://img.shields.io/npm/v/knayi-myscript.svg
 [npm-url]: https://npmjs.org/package/knayi-myscript

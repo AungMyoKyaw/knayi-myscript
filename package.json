@@ -4,7 +4,7 @@
   "description": "Knayi Myanmar languages script library for Nodejs",
   "main": "npm/index.js",
   "scripts": {
-    "test": "Package to npm"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",

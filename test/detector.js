@@ -28,7 +28,7 @@ describe("Font Detector", function () {
 
   it("should be return false", function () {
     var result = fontDetector(lorem);
-    assert.equal(false, result);
+    assert.equal(undefined, result);
   });
 
   it("should match with Unicode standard font", function () {
